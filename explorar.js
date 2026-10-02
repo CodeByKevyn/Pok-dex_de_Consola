@@ -4,8 +4,11 @@ async function buscarPokemons(){
     console.log(datos);
 
     for(const tipos of datos.types){
-        console.log(tipos)
-    }
+        console.log("tipos")
+        console.log(t.type.name)
+    };
+
+
     
 }
 buscarPokemons();
